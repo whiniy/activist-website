@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>The Negative Impact of Fast Fashion</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+		
+	<style>
+			
+		.container {
+ 		 position: relative;
+  	 width: 50%;
+		}
+
+		.image {
+ 		 display: block;
+		 width: 375px;
+ 	 	 height: 375px;	
+ 	   object-fit: cover;
+		 margin-left: auto;
+		 margin-right: auto;
+		}
+
+		.overlay {
+  	 position: absolute;
+ 	 	 top: 0;
+ 		 bottom: 0;
+ 		 left: 0;
+ 		 right: 0;
+		 margin-left: auto;
+		 margin-right: auto;
+	   width: 375px;
+	   height: 375px;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: rgba(0,0,0,0.7);
+    }
+
+    .container:hover .overlay {
+     opacity: 1;
+    }
+
+    .imgTitle {
+     color: white;
+	   font-family: "Georgia", serif;
+     position: absolute;
+     top: 22%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+	   text-align: center;
+	   font-size: 35px;
+    }
+			
+    .imgParagraph {
+     color: white;
+	   font-size: 14px;
+	   font-family: "Georgia", serif;
+     position: absolute;
+     top: 55%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+	   text-align: center;
+    }
+			
+	  .imgBTN {
+	   text-decoration: none; 
+	   color: white;
+	   font-size: 14px;
+	   font-family: "Georgia", serif;
+	   background-color: Transparent;
+	   border: none;
+     position: absolute;
+     top: 85%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+	   text-align: center;
+	   cursor: pointer;
+    }
+		.imgBTN:hover {
+     color: #48cae4;
+}
+	</style>
+<style>
+.button {
+  text-decoration: none; 
+	color: white;
+	font-size: 18px;
+	font-family: "Georgia", serif;
+	border: none;
+	padding: 0.75em;
+	text-align: center;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.button1 {
+  background-color: #90e0ef;
+  color: #023e8a;
+}
+
+.button1:hover {
+  background-color: #023e8a;
+  color: #90e0ef;
+}
+
+
+</style>
+  </head>
+  <nav>
+		<ul>
+			<li>
+				<a href="index.html"> HOME </a>
+			</li>
+			<li>
+				<a href="help.html"> HELP </a>
+			</li>
+		</ul>
+	</nav>
+  <header>
+		<h1 id="homeTitle" style="background: url(assets/gettyimages-1236428100-1.jpeg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center; background-color: rgba(0,0,0,0.4); background-blend-mode: multiply;"></h1>
+		<div class="headerTP">
+			<h1 id="headerT">Fast Fashion</h1>
+			<h3 id="headerP">where living in a world filled with overproduced and discarded clothes made with toxic chemicals is the norm</h3>
+		</div>
+	</header>
+	<body>
+		<main>
+			<div class="hft" style="background-color: #03045e;">
+				<h3 class="howFast"> What makes the fashion so...fast?</h3>
+				<h3 class="howFastText">Fast fashion describes cheap and trendy clothing that were inspired by catwalk pieces and turned into garments for retail stores to meet consumer demand. With new trends constantly becoming popular, these clothes need to be produced quickly and at the least possible cost. As a result, the price of rapid and inexpensive production is a negative impact on the...</h3>
+			</div>
+
+			
+			<div class="threeImages" style="background-color: #023e8a;">
+
+
+				<div class="container">
+  				<img src="assets/waste_is_out_of_fashion_shutterstock.jpeg" alt="landfill filled with clothes that were discarded" class="image">
+  				<div class="overlay">
+    				<div class="text">
+							<h3 class="imgTitle">Environment</h3>
+							<h4 class="imgParagraph">Cheap clothes are made with less environmentally-friendly materials. Toxic dyes, microplastics, and unwanted clothing are released into planet, thus contributing to our never-ending pollution issue.</h4>
+							<button class="imgBTN" onclick="window.open('https://psci.princeton.edu/tips/2020/7/20/the-impact-of-fast-fashion-on-the-environment', '_blank')">Learn More</button>
+						</div>
+  				</div>
+				</div>
+
+
+				<div class="container">
+  				<img src="assets/clean clothes campaign factory workers rsz.jpeg" alt="many factory workers work hard to produce clothing in unfavorable conditions" class="image">
+  				<div class="overlay">
+    				<div class="text">
+							<h3 class="imgTitle">Employees</h3>
+							<h4 class="imgParagraph">To meet consumer demands for trendy items, products must be produced quickly. As a result, almost all factory workers, including children, are severely underpaid, exploited, and work in dangerous conditions.</h4>
+							<button class="imgBTN" onclick="window.open('https://www.panaprium.com/blogs/i/fast-fashion-workers-conditions', '_blank')">Learn More</button>
+						</div>
+  				</div>
+				</div>
+
+				
+				<div class="container">
+  				<img src="assets/shutterstock_225764986.jpeg" alt="a group of young people representing the younger generation" class="image">
+  				<div class="overlay">
+    				<div class="text">
+							<h3 class="imgTitle">Society</h3>
+							<h4 class="imgParagraph">Fashion advertisements create insecurities, a lack of inclusivity, and much more. For example, many brands such as Shein and FashionNova use unrealistic, photshopped pictures of models in their garments.</h4>
+							<button class="imgBTN" onclick="window.open('https://www.panaprium.com/blogs/i/fast-fashion-society', '_blank')">Learn More</button>
+						</div>
+  				</div>
+				</div>
+			</div>
+
+			<div class="hft" style="background-color: #0096c7;">
+				<h2 class="howFast">Learn Something New</h2>
+				<h3 class="howFastText" id="clickBTN">Click the button to generate a new random fact about fast fashion.</h3>
+				<div>
+					<button onclick="generateFact()" class="button button1" id="factBTN">Generate Fact</button>
+				</div>
+			</div>
+
+
+
+			
+		</main>
+  </body>
+</html>
